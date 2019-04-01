@@ -1,0 +1,41 @@
+server:
+  port: 8594
+spring:
+  application:
+    name: car-interconnection
+  http:
+    converters:
+      preferred-json-mapper: fastjson
+  datasource:
+    url: jdbc:mysql://106.12.91.184:3306/car-interconnection?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: root321
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    validationQuery: select 1
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+    type: com.alibaba.druid.pool.DruidDataSource
+  redis:
+    host: 106.12.91.184
+    port: 6379
+  mvc:
+    date-format: yyyy-MM-dd
+mybatis-plus:
+  global-config:
+    id-type: 2
+    field-strategy: 2
+    db-column-underline: true
+logging:
+  file: springboot/log
+#    开启json转换功能
+#spring.http.converts.preferred-json-mapper=fastjson

@@ -1,0 +1,3 @@
+com\shanghaiyudao\CarInterconnectionDeployApplication.class
+com\shanghaiyudao\config\MySpringMvcConfigurer.class
+com\shanghaiyudao\config\FastJsonHttpMessageConverterConfig.class

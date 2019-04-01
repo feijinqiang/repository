@@ -1,0 +1,9 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper  namespace="com.shanghaiyudao.user.dao.UserInfoDao">
+    <!--根据用户名查询用户信息-->
+  <select id="selectUserInfoByUsername" resultType="com.shanghaiyudao.user.module.UserInfo">
+      select * from ci_user where username=#{username};
+  </select>
+</mapper>

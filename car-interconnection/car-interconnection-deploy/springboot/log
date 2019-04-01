@@ -1,0 +1,36 @@
+2019-03-29 14:33:22.903  INFO 17276 --- [main] CarInterconnectionDeployApplicationTests : Starting CarInterconnectionDeployApplicationTests on LAPTOP-6QDKNJ68 with PID 17276 (started by lenovo in E:\car-interconnection\car-interconnection\car-interconnection-deploy)
+2019-03-29 14:33:22.972  INFO 17276 --- [main] CarInterconnectionDeployApplicationTests : The following profiles are active: dev
+2019-03-29 14:33:25.237  INFO 17276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-29 14:33:25.243  INFO 17276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-29 14:33:25.314  INFO 17276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40ms. Found 0 repository interfaces.
+2019-03-29 14:33:26.367  INFO 17276 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$51ce7775] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-29 14:33:28.462  INFO 17276 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-29 14:33:31.587  INFO 17276 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-29 14:33:34.449  INFO 17276 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-29 14:33:34.589  INFO 17276 --- [main] CarInterconnectionDeployApplicationTests : Started CarInterconnectionDeployApplicationTests in 12.949 seconds (JVM running for 16.527)
+2019-03-29 14:33:35.687  INFO 17276 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-29 14:33:35.735  INFO 17276 --- [Thread-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-03-29 14:37:10.082  INFO 16512 --- [main] CarInterconnectionDeployApplicationTests : Starting CarInterconnectionDeployApplicationTests on LAPTOP-6QDKNJ68 with PID 16512 (started by lenovo in E:\car-interconnection\car-interconnection\car-interconnection-deploy)
+2019-03-29 14:37:10.083  INFO 16512 --- [main] CarInterconnectionDeployApplicationTests : The following profiles are active: dev
+2019-03-29 14:37:12.540  INFO 16512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-29 14:37:12.544  INFO 16512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-29 14:37:12.619  INFO 16512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+2019-03-29 14:37:13.616  INFO 16512 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a8e48388] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-29 14:38:22.882  INFO 16512 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-29 14:38:26.228  INFO 16512 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-29 14:38:29.646  INFO 16512 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-29 14:38:29.806  INFO 16512 --- [main] CarInterconnectionDeployApplicationTests : Started CarInterconnectionDeployApplicationTests in 80.48 seconds (JVM running for 83.075)
+2019-03-29 14:38:30.833  INFO 16512 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-29 14:38:30.881  INFO 16512 --- [Thread-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-03-29 14:44:14.337  INFO 8272 --- [main] CarInterconnectionDeployApplicationTests : Starting CarInterconnectionDeployApplicationTests on LAPTOP-6QDKNJ68 with PID 8272 (started by lenovo in E:\car-interconnection\car-interconnection\car-interconnection-deploy)
+2019-03-29 14:44:14.338  INFO 8272 --- [main] CarInterconnectionDeployApplicationTests : The following profiles are active: dev
+2019-03-29 14:44:15.929  INFO 8272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-29 14:44:15.933  INFO 8272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-29 14:44:15.978  INFO 8272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-03-29 14:44:16.975  INFO 8272 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3a452379] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-29 14:44:18.869  INFO 8272 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-03-29 14:44:21.353  INFO 8272 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-29 14:44:23.621  INFO 8272 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-29 14:44:23.744  INFO 8272 --- [main] CarInterconnectionDeployApplicationTests : Started CarInterconnectionDeployApplicationTests in 10.21 seconds (JVM running for 12.834)
+2019-03-29 14:44:24.540  INFO 8272 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-29 14:44:24.574  INFO 8272 --- [Thread-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
